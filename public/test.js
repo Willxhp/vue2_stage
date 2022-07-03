@@ -11,5 +11,5 @@ const vm = new Vue({
     }
   },
   el: '#app',
-  template: '<div></div>'
+  // template: '<div></div>'
 })

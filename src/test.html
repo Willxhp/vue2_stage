@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <div id="app" style="color: blue;font-size: 18px;">
-    <div style="color:red;background-color:white;">
-      {{name}} hello {{age}}
-    </div>
-    <span> world </span>
-  </div>
-  <script src="./test.js" defer></script>
+  <script>
+    const reg = /(\d+)/
+    console.log(reg.exec('123'))
+    const str = 'abc'
+    console.log(str.match(reg))
+  </script>
 </body>
+
 </html>
